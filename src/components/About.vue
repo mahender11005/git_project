@@ -81,7 +81,7 @@ $color-te: rgb(123, 88, 39);
     border: 2px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    cursor: pointer;
+    cursor:  pointer;
     
 }
 select:hover{

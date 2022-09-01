@@ -4,7 +4,9 @@
       <b-card no-body>
         <b-tabs pills card vertical>
           <b-tab title="HelloWorld"><HelloWorld /></b-tab>
-          <b-tab title="About"  active><About /></b-tab>
+          <b-tab title="About"><About /></b-tab>
+           <b-tab title="countdown "   active><countdown  /></b-tab>
+          
         </b-tabs>
       </b-card>
     </div>
@@ -13,6 +15,7 @@
 
 <script>
 import About from "./components/About.vue";
+import Countdown from './components/countdown.vue';
 import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
@@ -20,10 +23,12 @@ export default {
   components: {
     HelloWorld,
     About,
+    Countdown,
   },
 };
 </script>
 
 <style>
+
 
 </style>
