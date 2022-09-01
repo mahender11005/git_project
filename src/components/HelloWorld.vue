@@ -1,5 +1,5 @@
 <template>
-  <div class="container pb-3">
+  <div class="container pb-3 ">
     <div class="row">
       <h1 class="text-center pb-2">Personel Information</h1>
       <div class="col-12 div-border">
