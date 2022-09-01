@@ -3,8 +3,8 @@
     <div>
       <b-card no-body>
         <b-tabs pills card vertical>
-          <b-tab title="HelloWorld" active><HelloWorld /></b-tab>
-          <b-tab title="About"><About /></b-tab>
+          <b-tab title="HelloWorld"><HelloWorld /></b-tab>
+          <b-tab title="About"  active><About /></b-tab>
         </b-tabs>
       </b-card>
     </div>
@@ -25,12 +25,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
