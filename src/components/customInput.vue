@@ -19,6 +19,7 @@ export default {
     margin: 2px;
     max-width: auto;
     display: inline-block
+    
 
 }
 

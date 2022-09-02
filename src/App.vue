@@ -6,7 +6,8 @@
           <b-tab title="HelloWorld"><HelloWorld /></b-tab>
           <b-tab title="About"><About /></b-tab>
            <b-tab title="countdown " ><countdown  /></b-tab>
-             <b-tab title="Auto fill width "   active><mainInput  /></b-tab>
+             <b-tab title="Auto fill width " ><mainInput  /></b-tab>
+              <b-tab title="custom_buttons "   active><custom_buttons  /></b-tab>
        
           
         </b-tabs>
@@ -20,6 +21,7 @@ import About from "./components/About.vue";
 import Countdown from './components/countdown.vue';
 import HelloWorld from "./components/HelloWorld.vue";
 import mainInput from "./components/mainInput.vue";
+import custom_buttons from "./components/custom_buttons.vue";
 
 export default {
   name: "App",
@@ -28,6 +30,7 @@ export default {
     About,
     Countdown,
     mainInput,
+    custom_buttons,
   },
 };
 </script>
